@@ -45,11 +45,14 @@
     font-weight: 400;
     line-height: 11.7px;
     text-align: center;
-    padding: 15px 24px;
+    
 }
 
 .nav-list-link{
     color: #FBFBFB;
+    display: block;
+    padding: 15px 24px;
+    border-radius: 8px;
 }
 
 
