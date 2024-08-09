@@ -10,75 +10,60 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <script type="module" crossorigin src="/Project-2/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/Project-2/assets/index-b00f04a8.css">
+    <link rel="stylesheet" href="/Project-2/assets/index-7dbb5441.css">
   </head>
   <body>
 
     <header>
+  <div class="container header-container">
+    <a href="" class="logo">yachtjet</a>
 
+    <nav class="header-nav">
+      <ul class="nav-list">
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="">ABOUT</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="">YACHTS</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="">REVIEWS</a>
+        </li>
+      </ul>
+    </nav>
 
+    <ul class="icon-list">
+      <li class="icon-list-item">
+        <a href="https://www.instagram.com/goitclub/" target="_blank">
+          <svg class="header-icon" width="24" height="24">
+            <use href="/Project-2/assets/icons-d9dd8709.svg#icon-instagram"></use>
+          </svg>
+        </a>
+      </li>
 
-    <div class="container header-container">
+      <li class="icon-list-item">
+        <a href="https://www.youtube.com/c/GoIT" target="_blank">
+          <svg class="header-icon" width="24" height="24">
+            <use href="/Project-2/assets/icons-d9dd8709.svg#icon-youtube"></use>
+          </svg>
+        </a>
+      </li>
 
-      <a href="" class="logo">yachtjet</a>
-    
+      <li class="icon-list-item">
+        <a href="https://www.facebook.com/goITclub/" target="_blank">
+          <svg class="header-icon" width="24" height="24">
+            <use href="/Project-2/assets/icons-d9dd8709.svg#icon-facebook"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
 
-        
-        <nav class="header-nav">
-             
-            <ul class="nav-list">
-
-                <li class="nav-list-item"><a class="nav-list-link" href="">ABOUT</a></li>
-                <li class="nav-list-item"><a class="nav-list-link" href="">YACHTS</a></li>
-                <li class="nav-list-item"><a class="nav-list-link" href="">REVIEWS</a></li>
-
-            </ul>
-
-        </nav>
-
-        <ul class="icon-list">
-
-            <li class="icon-list-item">
-                <a href="https://www.instagram.com/goitclub/" target="_blank">
-                    <svg class="header-icon" width="24" height="24">
-                        <use href="/Project-2/assets/icons-d9dd8709.svg#icon-instagram"></use>
-                    </svg>
-                </a>    
-            </li>
-
-            <li class="icon-list-item">
-                <a href="https://www.youtube.com/c/GoIT" target="_blank">
-                    <svg class="header-icon" width="24" height="24">
-                        <use href="/Project-2/assets/icons-d9dd8709.svg#icon-youtube"></use>
-                    </svg>
-                </a>    
-
-            </li>
-
-            <li class="icon-list-item">
-                <a href="https://www.facebook.com/goITclub/" target="_blank">
-                    <svg class="header-icon" width="24" height="24">
-                        <use href="/Project-2/assets/icons-d9dd8709.svg#icon-facebook"></use>
-                    </svg>
-                </a>
-            </li>
-
-        </ul>
-
-        
-
-        <button type="button" class="header-button">
-            <svg class="icon-burger" width="28" height="28">
-                <use href="/Project-2/assets/icons-d9dd8709.svg#icon-burger"></use>
-            </svg>
-        </button>
-
-       
-
-    </div>
-
-    
-
+    <button type="button" class="header-button">
+      <svg class="icon-burger" width="28" height="28">
+        <use href="/Project-2/assets/icons-d9dd8709.svg#icon-burger"></use>
+      </svg>
+    </button>
+  </div>
 </header>
 
 
@@ -88,7 +73,79 @@
       
       
       
-      
+      <section class="section">
+  <div class="container">
+    <h2 class="reviews-title">
+      YachtJet take pride in providing the best possible service and experience
+      to our customers
+    </h2>
+    <p class="reviews-text">
+      Our customers have enjoyed unforgettable moments on our yachts. Don't just
+      take our word for it - read on to find out what they have to say about
+      their journey with us.
+    </p>
+    <ul class="review-list">
+      <li class="review-item">
+        <img
+          srcset="
+            ../img/reviews/reviews-mob-1x.png 1x,
+            ../img/reviews/reviews-mob-2x.png 2x
+          "
+          src="../img/reviews/reviews-mob-1x.png"
+          alt="jhon"
+          class="review-img"
+          width="56"
+        />
+
+        <h3 class="review-subtitle">John Wax</h3>
+        <p class="review-subtext">
+          I rented the Lagoon 620 with my family for a week-long vacation and it
+          was the best decision ever. The yacht was spacious, comfortable, and
+          luxurious, and the crew took care of everything.
+        </p>
+      </li>
+      <li class="review-item">
+        <img
+          srcset="
+            ../img/reviews/reviews2-tab-1x.png 1x,
+            ../img/reviews/reviews2-tab-2x.png 2x
+          "
+          src="../img/reviews/reviews2-tab-1x.png"
+          alt="victoria"
+          class="review-img"
+          width="56"
+        />
+
+        <h3 class="review-subtitle">Victoria Romashenko</h3>
+        <p class="review-subtext">
+          The Sunseeker Manhattan 66 was the perfect choice for our romantic
+          getaway. The yacht was beautifully designed, with all the amenities we
+          needed, and the crew was attentive and friendly.
+        </p>
+      </li>
+      <li class="review-item">
+        <img
+          srcset="
+            ../img/reviews/reviews3-desk-1x.png 1x,
+            ../img/reviews/reviews3-desk-2x.png 2x
+          "
+          src="../img/reviews/reviews3-desk-1x.png"
+          alt="jhor"
+          class="review-img"
+          width="56"
+        />
+
+        <h3 class="review-subtitle">Ihor Trachuk</h3>
+        <p class="review-subtext">
+          The Azimut 80 was the most luxurious yacht I've ever been on. The
+          cabins were spacious and elegant, and the outdoor areas were perfect
+          for relaxing and entertaining. Worth every penny!
+        </p>
+      </li>
+    </ul>
+  </div>
+</section>
+
     </main>
 
     
