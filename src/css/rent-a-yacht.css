@@ -49,7 +49,9 @@
     height: 108px;
     padding-top: 14px;
     padding-bottom: 0;
+    resize: none;
 }
+
 .rent-button {
     display: block;
     margin-top: 40px;
