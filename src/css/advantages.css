@@ -1,9 +1,4 @@
 
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
 .advantages-container {
   background-color: #1b414b;
   border-radius: 24px;
@@ -64,7 +59,9 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container {
+  .container-one {
+    max-width: 768px;
+    padding: 0 32px;
     gap: 32px;
   }
 
@@ -96,7 +93,9 @@
 }
 
 @media screen and (min-width: 1158px) {
-  .container {
+  .container-one {
+    max-width: 1280px;
+    padding: 0 15px;
     flex-wrap: nowrap;
   }
   .advantages-container {
@@ -104,7 +103,7 @@
     flex-wrap: wrap;
     padding: 0 50px;
     max-width: 716px;
-    margin: 0;
+    margin-right: 0;
   }
 
   .advantages-list {
