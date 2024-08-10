@@ -17,7 +17,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <script type="module" crossorigin src="/Project-2/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/Project-2/assets/index-854b4edc.css">
+    <link rel="stylesheet" href="/Project-2/assets/index-8fbffd20.css">
   </head>
   <body>
 
@@ -79,7 +79,53 @@
       
       
       
-      
+      <section class="rent-section section">
+    <div class="rent-container container">
+        <div class="rent-form-container">
+            <h2 class="rent-title">Rent a yacht now</h2>
+            <form class="rent-form" 
+            name="feedback-form" 
+            autocomplete="off">
+            <div class="input-container">
+                <input class="form-input" 
+                name="user-name" 
+                id="user-name" 
+                type="text" 
+                autofocus 
+                required
+                placeholder="Full Name" />
+                <input class="form-input" 
+                name="input-email" 
+                id="input-email" 
+                type="email" 
+                required 
+                pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+                placeholder="Email" />
+                <input class="form-input" 
+                name="input-phone" 
+                id="input-phone" 
+                type="tel" required 
+                pattern="^\+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}$"
+                placeholder="Phone number" />
+                <textarea 
+                class="input-comment form-input" 
+                name="user-comment"
+                id="user-comment" 
+                placeholder="Comment"></textarea>
+                </div>
+        <button class="rent-button" 
+        type="submit">Send</button>
+        </form>
+        </div>
+        <picture class="rent-img">
+           <source media="(min-width:1158px)" srcset="/Project-2/assets/rent-a-yacht-desk-1x-288a2ebb.png 1x, /Project-2/assets/rent-a-yacht-desk-2x-b496d040.png 2x"/>
+           <source media="(min-width:768px)" srcset="/Project-2/assets/rent-a-yacht-tab-1x-7d1b8ed7.png 1x, /Project-2/assets/rent-a-yacht-tab-2x-0b5cb0a5.png 2x"/>
+           <source media="(min-width:320px)" srcset="/Project-2/assets/rent-a-yacht-mob-1x-fda74c03.png 1x, /Project-2/assets/rent-a-yacht-mob-2x-b6e3d96e.png 2x"/>
+           <img  src="/Project-2/assets/rent-a-yacht-desk-1x-288a2ebb.png"
+           alt="Rent a yacht"/>
+        </picture>
+    </div>
+</section>
       <section class="section">
   <div class="container">
     <h2 class="reviews-title">
