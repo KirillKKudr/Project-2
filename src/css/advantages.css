@@ -8,6 +8,10 @@ ol {
   list-style: none;
 }
 .container-one {
+  min-width: 320px;
+  max-width: 375px;
+  padding: 0 20px;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -73,6 +77,8 @@ ol {
 
 @media screen and (min-width: 768px) {
   .container-one {
+    max-width: 768px;
+    padding: 0 32px;
     gap: 32px;
   }
 
@@ -105,6 +111,8 @@ ol {
 
 @media screen and (min-width: 1158px) {
   .container-one {
+    max-width: 1280px;
+    padding: 0 15px;
     flex-wrap: nowrap;
   }
   .advantages-container {
