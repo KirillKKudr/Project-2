@@ -70,7 +70,6 @@ ol {
 @media screen and (min-width: 768px) {
   .container-one {
     max-width: 768px;
-    padding: 0 32px;
     gap: 32px;
   }
 
@@ -101,10 +100,9 @@ ol {
   }
 }
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1280px) {
   .container-one {
     max-width: 1280px;
-    padding: 0 15px;
     flex-wrap: nowrap;
   }
   .advantages-container {
