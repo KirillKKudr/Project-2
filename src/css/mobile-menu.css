@@ -1,0 +1,95 @@
+.mob-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0e1823;
+  
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .mob-menu.is-open {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+  }
+  
+  .mob-container {
+    display: flex;
+    padding-top: 16px;
+    padding-bottom: 40px;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .mob-logo-wrap {
+    border: 1px solid #fbfbfb;
+    border-radius: 8px;
+    padding: 7px 20px;
+    background-color: #fbfbfb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 201px;
+  }
+  
+  .mob-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .icon-close {
+    fill: #055545;
+  }
+  
+  .mobile-nav {
+    margin-bottom: auto;
+  }
+  
+  .mob-list {
+    gap: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .mob-item {
+    width: 91px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: rgba(27, 65, 75, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .mob-item.part {
+    background-color: #1b414b;
+  }
+  
+  .mob-nav-link {
+    display: block;
+    font-size: 9px;
+    line-height: 1.3;
+    text-transform: uppercase;
+    color: #fbfbfb;
+  }
+  
+  .mob-icon-list {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .mob-icon {
+    display: block;
+    fill: #fbfbfb;
+    transition: fill 250ms ease-out;
+  }
