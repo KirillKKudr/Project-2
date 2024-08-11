@@ -26,6 +26,7 @@ ol {
 
 .advantages-item {
   max-width: 295px;
+  width: 100%;
 }
 
 .advantages-item-header {
@@ -43,7 +44,6 @@ ol {
   width: 100%;
   position: absolute;
   border-radius: 18px;
-  width: 295px;
   height: 2px;
   background-color: rgba(251, 251, 251, 0.1);
   left: 0;
@@ -91,10 +91,6 @@ ol {
     font-size: 32px;
   }
 
-  .advantages-item-header::before {
-    width: 304px;
-  }
-
   .advantages-img-container {
     max-width: 704px;
   }
@@ -118,10 +114,6 @@ ol {
   }
   .advantages-item {
     max-width: 286px;
-  }
-
-  .advantages-item-header::before {
-    width: 280px;
   }
 
   .advantages-img-container {
