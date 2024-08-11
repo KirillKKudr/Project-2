@@ -30,7 +30,6 @@ body {
   .container {
       max-width: 768px;
       min-width: 376px;
-      padding-bottom: 80px;
       padding: 0 32px;
   } 
 
