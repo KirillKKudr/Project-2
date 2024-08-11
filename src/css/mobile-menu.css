@@ -93,3 +93,10 @@
     fill: #fbfbfb;
     transition: fill 250ms ease-out;
   }
+
+
+  @media screen and (min-width: 768px) {
+    .mob-menu{
+      display: none;
+    }
+    }
