@@ -12,6 +12,8 @@
 .contain{
   max-width: 375px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 
 @media screen and (min-width: 768px) {
@@ -86,32 +88,31 @@
   margin-right: auto;
 }
 
-.main-button {
-  cursor: pointer;
-  padding: 0;
-  border: none;
-  background-color: transparent;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-.main-button.hero-button{
+.hero-button{
   display: block;
   margin-top: 38px;
+  cursor: pointer;
+  border: none;
+  border-radius: 15px;
   margin-right: auto;
   margin-left: auto;
-  border-radius: 15px;
+  height: 46px;
+  text-align: center;
+  padding: 16px 40px;
   background-color: #1B414B;
   color: #FBFBFB;
-  min-width: 141px;
-  height: 46px;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 18px;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-button:hover,
+.hero-button:focus{
+  background-color: #FBFBFB;
+  color: #1B414B;
 }
 
 @media screen and (min-width: 768px){
@@ -130,7 +131,7 @@ img {
       font-size: 16px;
   }
 
-  .main-button.hero-button{
+  .hero-button{
       margin-top: 48px;
       height: 52px;
       min-width: 179px;
@@ -154,7 +155,7 @@ img {
       font-size: 16px;
   }
 
-  .main-button.hero-button{
+  .hero-button{
       margin-top: 48px;
       height: 52px;
       min-width: 179px;
