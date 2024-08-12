@@ -21,7 +21,7 @@
   max-width: 295px;
 }
 
-.advantages-item-header {
+.advantages-item-span {
   font-weight: 500;
   font-size: 28px;
   line-height: 1;
@@ -31,7 +31,7 @@
   position: relative;
 }
 
-.advantages-item-header::before {
+.advantages-item-span::before {
   content: '';
   width: 100%;
   position: absolute;
@@ -77,7 +77,7 @@
     max-width: 304px;
   }
 
-  .advantages-item-header {
+  .advantages-item-span {
     font-size: 32px;
   }
 
