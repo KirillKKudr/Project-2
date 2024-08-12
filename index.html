@@ -28,13 +28,13 @@
     <nav class="header-nav">
       <ul class="nav-list">
         <li class="nav-list-item">
-          <a class="nav-list-link" href="">ABOUT</a>
+          <a class="nav-list-link" href="#about">ABOUT</a>
         </li>
         <li class="nav-list-item">
-          <a class="nav-list-link" href="">YACHTS</a>
+          <a class="nav-list-link" href="#yachts">YACHTS</a>
         </li>
         <li class="nav-list-item">
-          <a class="nav-list-link" href="">REVIEWS</a>
+          <a class="nav-list-link" href="#reviews">REVIEWS</a>
         </li>
       </ul>
     </nav>
@@ -77,11 +77,18 @@
     <main>
       <section class="hero-section">
   <div class="contain hero">
-      <h1 class="page-title">Explore the High Seas with Our Luxury Yacht Rentals</h1>
-      <p class="hero-paragraf">Experience the freedom and luxury of yachting on the open seas. Choose from our top-of-the-line yachts and embark on an unforgettable journey surrounded by breathtaking views and state-of-the-art amenities.</p>
-      <a href="" class="hero-button">Yacht rental</a>
+    <h1 class="page-title">
+      Explore the High Seas with Our Luxury Yacht Rentals
+    </h1>
+    <p class="hero-paragraf">
+      Experience the freedom and luxury of yachting on the open seas. Choose
+      from our top-of-the-line yachts and embark on an unforgettable journey
+      surrounded by breathtaking views and state-of-the-art amenities.
+    </p>
+    <a href="#rent" class="hero-button">Yacht rental</a>
   </div>
 </section>
+
       <section class="section">
   <div class="container section-container container-about-us">
     <div class="background">
@@ -187,55 +194,72 @@
 </section>
 
       <section class="rent-section section">
-    <div class="rent-container container">
-        <div class="rent-form-container">
-            <h2 class="rent-title">Rent a yacht now</h2>
-            <form class="rent-form" 
-            name="feedback-form" 
-            autocomplete="off">
-            <div class="input-container">
-                <input class="form-input" 
-                name="user-name" 
-                id="user-name" 
-                type="text" 
-                autofocus 
-                required
-                placeholder="Full Name" />
-                <input class="form-input" 
-                name="input-email" 
-                id="input-email" 
-                type="email" 
-                required 
-                pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-                placeholder="Email" />
-                <input class="form-input" 
-                name="input-phone" 
-                id="input-phone" 
-                type="tel" required 
-                pattern="^\+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}$"
-                placeholder="Phone number" />
-                <textarea 
-                class="input-comment form-input" 
-                name="user-comment"
-                id="user-comment" 
-                placeholder="Comment"></textarea>
-                </div>
-        <button class="rent-button" 
-        type="submit">Send</button>
-        </form>
+  <div class="rent-container container">
+    <div class="rent-form-container">
+      <h2 class="rent-title" id="rent">Rent a yacht now</h2>
+      <form class="rent-form" name="feedback-form" autocomplete="off">
+        <div class="input-container">
+          <input
+            class="form-input"
+            name="user-name"
+            id="user-name"
+            type="text"
+            autofocus
+            required
+            placeholder="Full Name"
+          />
+          <input
+            class="form-input"
+            name="input-email"
+            id="input-email"
+            type="email"
+            required
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            placeholder="Email"
+          />
+          <input
+            class="form-input"
+            name="input-phone"
+            id="input-phone"
+            type="tel"
+            required
+            pattern="^\+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}$"
+            placeholder="Phone number"
+          />
+          <textarea
+            class="input-comment form-input"
+            name="user-comment"
+            id="user-comment"
+            placeholder="Comment"
+          ></textarea>
         </div>
-        <picture class="rent-img">
-           <source media="(min-width:1158px)" srcset="/Project-2/assets/rent-a-yacht-desk-1x-d360255c.jpg 1x, /Project-2/assets/rent-a-yacht-desk-2x-6555d26f.jpg 2x"/>
-           <source media="(min-width:768px)" srcset="/Project-2/assets/rent-a-yacht-tab-1x-df50e4b7.jpg 1x, /Project-2/assets/rent-a-yacht-tab-2x-db588889.jpg 2x"/>
-           <source media="(min-width:320px)" srcset="/Project-2/assets/rent-a-yacht-mob-1x-6aaebf9a.jpg 1x, /Project-2/assets/rent-a-yacht-mob-2x-74552057.jpg 2x"/>
-           <img  src="/Project-2/assets/rent-a-yacht-desk-1x-d360255c.jpg"
-           alt="Rent a yacht"/>
-        </picture>
+        <button class="rent-button" type="submit">Send</button>
+      </form>
     </div>
+    <picture class="rent-img">
+      <source
+        media="(min-width:1158px)"
+        srcset="/Project-2/assets/rent-a-yacht-desk-1x-d360255c.jpg 1x, /Project-2/assets/rent-a-yacht-desk-2x-6555d26f.jpg 2x"
+      />
+      <source
+        media="(min-width:768px)"
+        srcset="/Project-2/assets/rent-a-yacht-tab-1x-df50e4b7.jpg 1x, /Project-2/assets/rent-a-yacht-tab-2x-db588889.jpg 2x"
+      />
+      <source
+        media="(min-width:320px)"
+        srcset="/Project-2/assets/rent-a-yacht-mob-1x-6aaebf9a.jpg 1x, /Project-2/assets/rent-a-yacht-mob-2x-74552057.jpg 2x"
+      />
+      <img
+        src="/Project-2/assets/rent-a-yacht-desk-1x-d360255c.jpg"
+        alt="Rent a yacht"
+      />
+    </picture>
+  </div>
 </section>
+
       <section class="section">
   <div class="container">
-    <h2 class="reviews-title">
+    <h2 class="reviews-title" id="reviews">
       YachtJet take pride in providing the best possible service and experience
       to our customers
     </h2>
@@ -378,13 +402,13 @@
     <nav class="mobile-nav">
       <ul class="mob-list">
         <li class="mob-item part">
-          <a class="mob-nav-link" href="">ABOUT</a>
+          <a class="mob-nav-link" href="#about">ABOUT</a>
         </li>
         <li class="mob-item">
-          <a class="mob-nav-link" href="">YACHTS</a>
+          <a class="mob-nav-link" href="#yachts">YACHTS</a>
         </li>
         <li class="mob-item">
-          <a class="mob-nav-link" href="">REVIEWS</a>
+          <a class="mob-nav-link" href="#reviews">REVIEWS</a>
         </li>
       </ul>
     </nav>
@@ -414,6 +438,8 @@
       </li>
     </ul>
   </div>
+</div>
+
    
 
     
