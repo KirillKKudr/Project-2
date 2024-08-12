@@ -1,50 +1,72 @@
 <section class="rent-section section">
-    <div class="rent-container container">
-        <div class="rent-form-container">
-            <h2 class="rent-title">Rent a yacht now</h2>
-            <form class="rent-form" 
-            name="feedback-form" 
-            autocomplete="off">
-            <div class="input-container">
-                <input class="form-input" 
-                name="user-name" 
-                id="user-name" 
-                type="text" 
-                autofocus 
-                required
-                placeholder="Full Name" />
-                <input class="form-input" 
-                name="input-email" 
-                id="input-email" 
-                type="email" 
-                required 
-                pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-                placeholder="Email" />
-                <input class="form-input" 
-                name="input-phone" 
-                id="input-phone" 
-                type="tel" required 
-                pattern="^\+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}$"
-                placeholder="Phone number" />
-                <textarea 
-                class="input-comment form-input" 
-                name="user-comment"
-                id="user-comment" 
-                placeholder="Comment"></textarea>
-                </div>
-        <button class="rent-button" 
-        type="submit">Send</button>
-        </form>
+  <div class="rent-container container">
+    <div class="rent-form-container">
+      <h2 class="rent-title" id="rent">Rent a yacht now</h2>
+      <form class="rent-form" name="feedback-form" autocomplete="off">
+        <div class="input-container">
+          <input
+            class="form-input"
+            name="user-name"
+            id="user-name"
+            type="text"
+            autofocus
+            required
+            placeholder="Full Name"
+          />
+          <input
+            class="form-input"
+            name="input-email"
+            id="input-email"
+            type="email"
+            required
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            placeholder="Email"
+          />
+          <input
+            class="form-input"
+            name="input-phone"
+            id="input-phone"
+            type="tel"
+            required
+            pattern="^\+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}$"
+            placeholder="Phone number"
+          />
+          <textarea
+            class="input-comment form-input"
+            name="user-comment"
+            id="user-comment"
+            placeholder="Comment"
+          ></textarea>
         </div>
-        <picture class="rent-img">
-           <source media="(min-width:1158px)" srcset="/img/rent-a-yacht/rent-a-yacht-desk-1x.jpg 1x,
-           /img/rent-a-yacht/rent-a-yacht-desk-2x.jpg 2x"/>
-           <source media="(min-width:768px)" srcset="/img/rent-a-yacht/rent-a-yacht-tab-1x.jpg 1x,
-           /img/rent-a-yacht/rent-a-yacht-tab-2x.jpg 2x"/>
-           <source media="(min-width:320px)" srcset="/img/rent-a-yacht/rent-a-yacht-mob-1x.jpg 1x,
-           /img/rent-a-yacht/rent-a-yacht-mob-2x.jpg 2x"/>
-           <img  src="/img/rent-a-yacht/rent-a-yacht-desk-1x.jpg"
-           alt="Rent a yacht"/>
-        </picture>
+        <button class="rent-button" type="submit">Send</button>
+      </form>
     </div>
+    <picture class="rent-img">
+      <source
+        media="(min-width:1158px)"
+        srcset="
+          /img/rent-a-yacht/rent-a-yacht-desk-1x.jpg 1x,
+          /img/rent-a-yacht/rent-a-yacht-desk-2x.jpg 2x
+        "
+      />
+      <source
+        media="(min-width:768px)"
+        srcset="
+          /img/rent-a-yacht/rent-a-yacht-tab-1x.jpg 1x,
+          /img/rent-a-yacht/rent-a-yacht-tab-2x.jpg 2x
+        "
+      />
+      <source
+        media="(min-width:320px)"
+        srcset="
+          /img/rent-a-yacht/rent-a-yacht-mob-1x.jpg 1x,
+          /img/rent-a-yacht/rent-a-yacht-mob-2x.jpg 2x
+        "
+      />
+      <img
+        src="/img/rent-a-yacht/rent-a-yacht-desk-1x.jpg"
+        alt="Rent a yacht"
+      />
+    </picture>
+  </div>
 </section>
