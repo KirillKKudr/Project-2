@@ -29,6 +29,7 @@
   color: #fbfbfb;
   margin-bottom: 38px;
   position: relative;
+  display: flex;
 }
 
 .advantages-item-span::before {
