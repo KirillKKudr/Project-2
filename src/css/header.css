@@ -105,6 +105,9 @@
         gap: 8px;
     }
 
+    .nav-list-item{
+        margin: 4px 0;
+    }
 }
 
 
