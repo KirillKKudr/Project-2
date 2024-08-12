@@ -6,6 +6,7 @@
             name="feedback-form" 
             autocomplete="off">
             <div class="input-container">
+                <label class="label-input" for="user-name">Full name</label>
                 <input class="form-input" 
                 name="user-name" 
                 id="user-name" 
@@ -13,6 +14,7 @@
                 autofocus 
                 required
                 placeholder="Full Name" />
+                <label class="label-input" for="input-email">Email</label>
                 <input class="form-input" 
                 name="input-email" 
                 id="input-email" 
@@ -20,12 +22,14 @@
                 required 
                 pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
                 placeholder="Email" />
+                <label class="label-input" for="input-phone">Phone number</label>
                 <input class="form-input" 
                 name="input-phone" 
                 id="input-phone" 
                 type="tel" required 
                 pattern="^\+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}$"
                 placeholder="Phone number" />
+                <label class="label-input" for="user-comment">Comment</label>
                 <textarea 
                 class="input-comment form-input" 
                 name="user-comment"

@@ -1,9 +1,8 @@
 
- 
-
 .rent-form-container {
     margin: 0 auto;
     max-width: 335px;
+    margin-bottom: 80px;
 }
 
 .rent-title {
@@ -45,9 +44,12 @@
 
 .input-comment{
     height: 108px;
-    padding-top: 14px;
-    padding-bottom: 0;
+    padding: 18px;
     resize: none;
+}
+
+.label-input{
+    display: none;
 }
 
 .rent-button {
@@ -63,7 +65,7 @@
     letter-spacing: -0.02em;
     color: #fbfbfb;
     background: #1b414b;
-    margin-bottom: 80px;
+    
     align-self: start;
     border: none;
     font-family: "Inter", sans-serif;
