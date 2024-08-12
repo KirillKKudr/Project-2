@@ -79,7 +79,7 @@
   .about-title {
     max-width: 536px;
     font-size: 48px;
-    margin-right: 136px;
+    margin-bottom: 20px;
   }
 
   .section-text {
@@ -114,6 +114,7 @@
   .about-title {
     max-width: 537px;
     font-size: 48px;
+    margin-bottom: 0;
   }
 
   .about-text {
