@@ -96,6 +96,11 @@
   }
 
   @media screen and (max-height: 450px) {
+
+    .mob-menu {
+      overflow-y: auto; 
+    }
+
     .mob-logo-wrap{
       margin-bottom: auto;
     }
