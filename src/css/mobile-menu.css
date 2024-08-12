@@ -60,13 +60,10 @@
   }
   
   .mob-item {
-    width: 91px;
-    height: 40px;
     border-radius: 8px;
     background-color: rgba(27, 65, 75, 0.5);
     display: flex;
-    justify-content: center;
-    align-items: center;
+    
   }
   
   .mob-item.part {
@@ -74,11 +71,15 @@
   }
   
   .mob-nav-link {
-    display: block;
+    display: flex;
     font-size: 9px;
     line-height: 1.3;
     text-transform: uppercase;
     color: #fbfbfb;
+    padding: 15px 24px;
+    min-width: 91px;
+    justify-content: center;
+    align-items: center;
   }
   
   .mob-icon-list {
@@ -93,6 +94,12 @@
     fill: #fbfbfb;
     transition: fill 250ms ease-out;
   }
+
+  @media screen and (max-height: 450px) {
+    .mob-logo-wrap{
+      margin-bottom: auto;
+    }
+    }
 
 
   @media screen and (min-width: 768px) {
