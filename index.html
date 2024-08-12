@@ -17,7 +17,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <script type="module" crossorigin src="/Project-2/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/Project-2/assets/index-b66432ea.css">
+    <link rel="stylesheet" href="/Project-2/assets/index-c1f581ca.css">
   </head>
   <body>
 
@@ -199,6 +199,7 @@
       <h2 class="rent-title" id="rent">Rent a yacht now</h2>
       <form class="rent-form" name="feedback-form" autocomplete="off">
         <div class="input-container">
+            <label class="label-input" for="user-name">Full Name</label>
           <input
             class="form-input"
             name="user-name"
@@ -208,6 +209,7 @@
             required
             placeholder="Full Name"
           />
+        <label class="label-input" for="input-email">Email</label>
           <input
             class="form-input"
             name="input-email"
@@ -217,6 +219,7 @@
             pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
             placeholder="Email"
           />
+        <label class="label-input" for="input-phone">Phone number</label>
           <input
             class="form-input"
             name="input-phone"
@@ -226,6 +229,7 @@
             pattern="^\+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}$"
             placeholder="Phone number"
           />
+        <label class="label-input" for="user-comment">Comment</label>
           <textarea
             class="input-comment form-input"
             name="user-comment"
@@ -256,7 +260,6 @@
     </picture>
   </div>
 </section>
-
       <section class="section">
   <div class="container">
     <h2 class="reviews-title" id="reviews">
