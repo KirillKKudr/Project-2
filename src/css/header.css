@@ -38,6 +38,7 @@
 }
 
 .nav-list-item{
+    min-width: 91px;
     background-color:  #1B414B80;
     border-radius: 8px; 
     font-size: 9px;
