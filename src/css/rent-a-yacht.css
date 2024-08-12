@@ -1,9 +1,14 @@
 
  
 
+.label-input{
+    display: none;
+ }
+
 .rent-form-container {
     margin: 0 auto;
     max-width: 335px;
+    margin-bottom: 80px;
 }
 
 .rent-title {
@@ -45,8 +50,7 @@
 
 .input-comment{
     height: 108px;
-    padding-top: 14px;
-    padding-bottom: 0;
+    padding: 18px;
     resize: none;
 }
 
@@ -63,7 +67,6 @@
     letter-spacing: -0.02em;
     color: #fbfbfb;
     background: #1b414b;
-    margin-bottom: 80px;
     align-self: start;
     border: none;
     font-family: "Inter", sans-serif;
@@ -76,6 +79,7 @@
     .rent-form-container{
         margin: 0 auto;
         max-width: 473px;
+        margin-bottom: 100px;
     }
 
     .input-container {
@@ -102,7 +106,6 @@
         font-size: 18px;
         line-height: 1.1;
         margin-top: 50px;
-        margin-bottom: 100px;
     }
     .rent-img{
         margin: 0 auto;
@@ -122,6 +125,7 @@
         margin-left: 0;
         margin-right:  auto;
         max-width: 472px;
+        margin-bottom: 0;
     }
 
     .input-container {
@@ -137,14 +141,9 @@
         padding-top: 18px;
     }
 
-    .rent-button {
-        margin-bottom: 0;
-    }
-
     .rent-button:hover,
     .rent-button:focus{
         background: #fbfbfb;
         color: #1b414b;
     }
 }
-    
